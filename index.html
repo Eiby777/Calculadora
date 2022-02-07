@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <table align="center" style="border: 1px solid;">
+        <tr>
+            <td id="td-resul">
+                <section>
+                    <input type="text"  id="resul" readonly>
+                    <div id="MostrarHistorial">
+                        <label id="ContenidoH" style="text-align: right;"></label><br>
+                        <button id="BorrarH" onclick="BorrarHistorial();">Eliminar Historial</button>
+                    </div>
+                </section>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="calculadora(7)"><label>7</label></button></td>
+            <td><button onclick="calculadora(8)"><label>8</label></button></td>
+            <td><button onclick="calculadora(9)"><label>9</label></button></td>
+            <td><button onclick="calculadora('H')"><label>H</label></button></td>
+            <td><button onclick="calculadora('⌫')"><label class="signos">⌫</label></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="calculadora(4)"><label>4</label></button></td>
+            <td><button onclick="calculadora(5)"><label>5</label></button></td>
+            <td><button onclick="calculadora(6)"><label>6</label></button></td>
+            <td><button onclick="calculadora('X')"><label>X</label></button></td>
+            <td><button onclick="calculadora('÷')"><label class="signos">÷</label></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="calculadora(1)"><label>1</label></button></td>
+            <td><button onclick="calculadora(2)"><label>2</label></button></td>
+            <td><button onclick="calculadora(3)"><label>3</label></button></td>
+            <td><button onclick="calculadora('-')"><label class="signos">-</label></button></td>
+            <td id="igual"><button onclick="calculadora('=')"><label class="signos">=</label></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="calculadora('C')"><label>C</label></button></td>
+            <td><button onclick="calculadora(0)"><label>0</label></button></td>
+            <td><button onclick="calculadora('.')"><label class="signos">.</label></button></td>
+            <td><button onclick="calculadora('+')"><label class="signos">+</label></button></td>
+        </tr>
+    </table>
+</body>
+<script src="js/javascript.js"></script>
+</html>

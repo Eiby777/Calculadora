@@ -1,0 +1,55 @@
+#resul{
+    width: 100%;
+}
+#MostrarHistorial{
+    width: 58%;
+    height: 100%;
+    overflow: auto;
+    display: none;
+}
+#ContenidoH{
+    text-align: right;
+    font-size: 150%;
+}
+#BorrarH{
+    float: right;
+    width: 150px;
+    height: 30px;
+    margin-left: 0;
+    padding-left: 0;
+}
+section{
+    width: 512%;
+    height: 100%;
+}
+#td-resul{
+    border: 0px;
+}
+td{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    font-weight: 500;
+}
+label{
+    font-size: medium;
+}
+.signos{
+    font-size: 30px;
+}
+td > button{
+    width: 100%;
+    height: 100%;
+}
+input[type=text]{
+    width: 100%;
+    height: 90%;
+    font-size: 30px;
+}
+#igual{
+    height: 22.1%;
+    position: absolute;
+}
+input[type=text] {
+    text-align: right;
+}
